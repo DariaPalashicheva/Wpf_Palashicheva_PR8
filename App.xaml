@@ -1,0 +1,92 @@
+﻿<Application x:Class="Wpf_Palashicheva_PR8.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wpf_Palashicheva_PR8"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="TextBlock" x:Key="Title">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="13pt"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="15"/>
+        </Style>
+        <Style TargetType="Button" x:Key="ButtonG">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#FF92E292"/>
+            <Setter Property="BorderBrush" Value="#FF07A407"/>
+        </Style>
+        <Style TargetType="Button" x:Key="ButtonY">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#FFFFFFB9"/>
+            <Setter Property="BorderBrush" Value="#FFF5BD25"/>
+        </Style>
+        <Style TargetType="Label" x:Key="Label">
+            <Setter Property="FontSize" Value="13pt"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="TextBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="PasswordBox" x:Key="PasswordBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="ButtonB">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#FF92D0E2"/>
+            <Setter Property="BorderBrush" Value="#FF070EA4"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="btnGG">
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+        <Style TargetType="Button" x:Key="btnRR">
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+        <Style TargetType="Button" x:Key="btnBB">
+            <Setter Property="Background" Value="Coral"/>
+            <Setter Property="Width" Value="90"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="TextBoxx">
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="TextBlockk">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="12pt"/>
+            <Setter Property="Margin" Value="7"/>
+        </Style>
+        <Style TargetType="ComboBox" x:Key="ComboBoxx">
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+    </Application.Resources>
+</Application>

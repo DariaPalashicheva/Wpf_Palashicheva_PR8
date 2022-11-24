@@ -1,0 +1,17 @@
+﻿<Page x:Class="Wpf_Palashicheva_PR8.PageMain.PageVisitor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Wpf_Palashicheva_PR8.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1200"
+      Title="Гость">
+
+    <Grid>
+        <WrapPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Создать резюме" Style="{StaticResource ButtonG}" Click="Button_Click"/>
+            <Button HorizontalAlignment="Left" Click="Button_Click_1" Grid.Row="1" Style="{StaticResource btnBB}" Content="Вернуться на страницу авторизации" Width="300" Height="25"/>
+        </WrapPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,50 @@
+﻿<Page x:Class="Wpf_Palashicheva_PR8.PageMain.PageRezumeAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Wpf_Palashicheva_PR8.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1200"
+      Title="Создание резюме">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="ФИО" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Пол" Grid.Row="1" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Желаемая должность" Grid.Row="2" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Желаемый заработок" Grid.Row="3" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Дата рождения" Grid.Row="4" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Город" Grid.Row="5" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Готовность к переезду" Grid.Row="6" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Опыт работы" Grid.Row="7" Style="{StaticResource TextBlockk}"/>
+        <TextBlock Text="Доп. сведения" Grid.Row="8" Style="{StaticResource TextBlockk}"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBoxx}" MaxLength="50" Text="{Binding naimenov}"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" Style="{StaticResource ComboBoxx}" x:Name="ComboPol" SelectedItem="{Binding Pol}" DisplayMemberPath="Pol1"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding job}"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding money}"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding birthdate}" />
+        <TextBox Grid.Row="5" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding city}"/>
+        <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding experience}" Style="{StaticResource TextBoxx}"/>
+        <TextBox Grid.Row="7" Grid.Column="1" Text="{Binding experience}" Style="{StaticResource TextBoxx}"/>
+        <TextBox Grid.Row="8" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding komment}"/>
+        <Button Grid.Row="9" Grid.Column="0" Content="Назад" Name="btnBack" Click="btnBack_Click" Style="{StaticResource btnRR}"/>
+        <Button Grid.Row="9" Grid.ColumnSpan="2" Content="Сохранить" Name="btnSave" Click="btnSave_Click" Style="{StaticResource btnGG}"/>
+        <Image x:Name="job" Height="450" Width="450" Grid.RowSpan="9" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Right" Source="job.jpg"/>
+    </Grid>
+</Page>
