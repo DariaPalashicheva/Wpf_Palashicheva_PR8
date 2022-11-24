@@ -40,7 +40,7 @@
         <TextBox Grid.Row="3" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding money}"/>
         <TextBox Grid.Row="4" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding birthdate}" />
         <TextBox Grid.Row="5" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding city}"/>
-        <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding experience}" Style="{StaticResource TextBoxx}"/>
+        <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding pereezd}" Style="{StaticResource TextBoxx}"/>
         <TextBox Grid.Row="7" Grid.Column="1" Text="{Binding experience}" Style="{StaticResource TextBoxx}"/>
         <TextBox Grid.Row="8" Grid.Column="1" Style="{StaticResource TextBoxx}" Text="{Binding komment}"/>
         <Button Grid.Row="9" Grid.Column="0" Content="Назад" Name="btnBack" Click="btnBack_Click" Style="{StaticResource btnRR}"/>
